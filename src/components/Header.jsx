@@ -17,7 +17,8 @@ function Header() {
         <AppBar>
           <Toolbar sx={{ justifyContent: 'space-evenly' }}>
             <Link
-              href="#about"
+              href='#about'
+              underline='none'
               sx={{
                 my: 2,
                 color: 'white',
@@ -25,19 +26,43 @@ function Header() {
                 fontWeight: 'bold',
               }}
             >
-              <Typography style={{ fontWeight: 600 }}>About</Typography>
+              About
             </Link>
             <Link
-              href="#portfolio"
-              sx={{ my: 2, color: 'white', display: 'block' }}
+              href='#portfolio'
+              underline='none'
+              sx={{
+                my: 2,
+                color: 'white',
+                display: 'block',
+                fontWeight: 'bold',
+              }}
             >
               Portfolio
             </Link>
             <Link
-              href="#resume"
-              sx={{ my: 2, color: 'white', display: 'block' }}
+              href='#resume'
+              underline='none'
+              sx={{
+                my: 2,
+                color: 'white',
+                display: 'block',
+                fontWeight: 'bold',
+              }}
             >
               Resume
+            </Link>
+            <Link
+              href='#contact'
+              underline='none'
+              sx={{
+                my: 2,
+                color: 'white',
+                display: 'block',
+                fontWeight: 'bold',
+              }}
+            >
+              Contact Me
             </Link>
           </Toolbar>
         </AppBar>
