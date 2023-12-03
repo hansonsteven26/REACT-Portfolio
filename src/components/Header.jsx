@@ -2,7 +2,6 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Link from '@mui/material/Link';
-import { Typography } from '@mui/material';
 
 function Header() {
   const appBarStyle = {
