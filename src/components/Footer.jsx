@@ -6,7 +6,7 @@ import StackedBarChartIcon from '@mui/icons-material/StackedBarChart';
 const Footer = () => {
   return (
     <Box id="footer" sx={{ position: 'fixed', bottom: 0, width: '100%' }}>
-      <Toolbar sx={{ justifyContent: 'space-evenly' }}>
+      <Toolbar sx={{ justifyContent: 'flex-end' }}>
         <BottomNavigation showLabels>
           <BottomNavigationAction label={<GitHubIcon />} href='https://github.com/hansonsteven26' />
           <BottomNavigationAction label={<LinkedInIcon />} href='https://www.linkedin.com/in/steven-m-hanson/' />
