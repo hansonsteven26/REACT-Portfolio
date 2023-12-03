@@ -71,15 +71,19 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_7pb3op9',
-        'template_6rlkit6',
+        'service_6h4pr4l',
+        'template_evnfqy4',
         form,
-        'qqvh9l_k9DDGWWdkf'
+        'PxMhiUDWHXscB-zBe'
       )
       .then(
         (result) => {
           console.log(result.text);
-          setResponseMessage({ message: '', type: '' });
+          setResponseMessage({
+            message: 'Email sent successfully',
+            type: 'success',
+          });
+          setFormData({ name: '', email: '', message: '' });
           setLoading(false);
         },
         (error) => {
