@@ -5,12 +5,12 @@ const About = () => {
   return (
     <Box
       id="about"
+      pt={10}
       sx={{
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '30vh',
       }}
     >
       <Typography variant="h2" sx={{ textAlign: 'center' }}>
@@ -21,7 +21,7 @@ const About = () => {
           <CardMedia
             component="img"
             image={Me}
-            height={100}
+            height={200}
             sx={{ objectFit: 'contain' }}
           />
           <CardContent>
