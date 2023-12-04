@@ -26,7 +26,7 @@ function Header() {
                 fontWeight: 'bold',
               }}
             >
-              <Typography style={{ fontWeight: 600 }}>About</Typography>
+              <Typography style={{ fontWeight: 600 }} variant='h4'>About</Typography>
             </Link>
             <Link
               href="#portfolio"
@@ -38,7 +38,7 @@ function Header() {
                 fontWeight: 'bold',
               }}
             >
-              <Typography style={{ fontWeight: 600 }}>Portfolio</Typography>
+              <Typography style={{ fontWeight: 600 }} variant='h4'>Portfolio</Typography>
             </Link>
             <Link
               href="#resume"
@@ -50,7 +50,7 @@ function Header() {
                 fontWeight: 'bold',
               }}
             >
-              <Typography style={{ fontWeight: 600 }}>Resume</Typography>
+              <Typography style={{ fontWeight: 600 }} variant='h4'>Resume</Typography>
             </Link>
             <Link
               href="#contact"
@@ -62,7 +62,7 @@ function Header() {
                 fontWeight: 'bold',
               }}
             >
-              <Typography style={{ fontWeight: 600 }}>Contact Me</Typography>
+              <Typography style={{ fontWeight: 600 }} variant='h4'>Contact Me</Typography>
             </Link>
           </Toolbar>
         </AppBar>
