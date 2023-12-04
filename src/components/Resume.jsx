@@ -13,7 +13,7 @@ import myResume from '../assets/Resume.pdf';
 
 const Resume = () => {
   return (
-    <Box className="resume" id="resume">
+    <Box className="resume" id="resume" pt={10}>
       <Typography variant="h2" margin={3} textAlign={'center'}>
         Resume
       </Typography>

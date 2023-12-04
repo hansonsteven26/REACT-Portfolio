@@ -93,7 +93,7 @@ const Contact = () => {
   };
 
   return (
-    <Box className="contact-me" id="contact">
+    <Box className="contact-me" id="contact" pt={10}>
       <Typography variant="h2" margin={3} textAlign={'center'}>
         Contact Me
       </Typography>
