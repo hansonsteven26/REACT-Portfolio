@@ -26,6 +26,7 @@ const Portfolio = () => {
             <CardMedia
               component="img"
               image={noteTaker}
+              alt='Note Taking application'
               height={300}
               sx={{ objectFit: 'contain' }}
             />
@@ -74,6 +75,7 @@ const Portfolio = () => {
             <CardMedia
               component="img"
               image={passwordGenerator}
+              alt='Password Generating application'
               height={300}
               sx={{ objectFit: 'contain' }}
             />
@@ -122,6 +124,7 @@ const Portfolio = () => {
             <CardMedia
               component="img"
               image={readmeCreator}
+              alt='backend application for generating READMEs'
               height={300}
               sx={{ objectFit: 'contain' }}
             />
@@ -167,6 +170,7 @@ const Portfolio = () => {
             <CardMedia
               component="img"
               image={socialNetworkAPI}
+              alt='backend application for creating a social network'
               height={300}
               sx={{ objectFit: 'contain' }}
             />
@@ -212,6 +216,7 @@ const Portfolio = () => {
             <CardMedia
               component="img"
               image={unleashTheFacts}
+              alt='website for searching dog breeds'
               height={300}
               sx={{ objectFit: 'contain' }}
             />
@@ -260,6 +265,7 @@ const Portfolio = () => {
             <CardMedia
               component="img"
               image={wellnessWizard}
+              alt='website for tracking health and wellness'
               height={300}
               sx={{ objectFit: 'contain' }}
             />
