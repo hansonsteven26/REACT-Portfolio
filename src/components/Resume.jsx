@@ -28,7 +28,9 @@ const Resume = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <Button component="a">Download</Button>
+                <Button component="a" variant="contained">
+                  Download
+                </Button>
               </Link>
             </CardContent>
           </Card>
