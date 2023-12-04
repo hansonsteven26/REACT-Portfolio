@@ -14,7 +14,7 @@ const About = () => {
       }}
     >
       <Typography variant="h2" sx={{ textAlign: 'center' }}>
-        About Me
+        Steven Hanson
       </Typography>
       <Box sx={{ textAlign: 'center' }} width={'60vw'}>
         <Card>
